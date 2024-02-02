@@ -43,6 +43,614 @@
       "allowedRoles": ["admin"]
     },
     {
+      "route": "/api/Activity_AddOrUpdateTableRows",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/Activity_GetAllTableRows",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/AddAPDevice",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/AddAutopilotConfig",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/AddContact",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/AddGroup",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/AddGroupTemplate",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/AddGuest",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/AddScheduledItems",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/AddSharedMailbox",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/AddTeam",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/AddUser",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/AddWinGetApp",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/EditGroup",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/EditUser",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecAlertsList",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecAlertsListAllTenants",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecAppApproval",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecAssignApp",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecBECCheck",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecBECRemediate",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecBackendURLs",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecCPVPermissions",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecClrImmId",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecConverttoSharedMailbox",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecCopyForSent",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecCreateTAP",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecDeviceAction",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecDisableEmailForward",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecDisableUser",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecEditCalendarPermissions",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecEditMailboxPermissions",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecEmailForward",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecEnableArchive",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecGetLocalAdminPassword",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecGetRecoveryKey",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecGraphRequest",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecGroupsDelete",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecGroupsDeliveryManagement",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecGroupsHideFromGAL",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecHideFromGAL",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecIncidentsList",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecIncidentsListAllTenants",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecListAppId",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecMailboxMobileDevices",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecOffboardUser",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecPasswordConfig",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecQuarantineManagement",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecResetMFA",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecResetPass",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecRestoreBackup",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecRestoreDeleted",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecRevokeSessions",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecRunBackup",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecSchedulerBillingRun",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecSendOrgMessage",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecSendPush",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecSetMailboxQuota",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecSetOoO",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecUniversalSearch",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/GetCippAlerts",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/GetDashboard",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/GetVersion",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListAPDevices",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListAlertsQueue",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListAllTenantDeviceCompliance",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListAppStatus",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListApplicationQueue",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListApps",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListAppsRepository",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListAutopilotconfig",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListAzureADConnectStatus",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListBasicAuth",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListBasicAuthAllTenants",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListCalendarPermissions",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListContacts",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListDefenderState",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListDefenderTVM",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListDeletedItems",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListDeviceDetails",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListDevices",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListDomainHealth",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListDomains",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListExtensionsConfig",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListExternalTenantInfo",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListGenericAllTenants",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListGenericTestFunction",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListGroupTemplates",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListGroups",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListHaloClients",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListInactiveAccounts",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListIntuneIntents",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListIntunePolicy",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListIntuneTemplates",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListLicenses",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListLicensesAllTenants",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListLogs",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListMFAUsers",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListMFAUsersAllTenants",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListMailQuarantine",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListMailboxCAS",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListMailboxMobileDevices",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListMailboxRules",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListMailboxRulesAllTenants",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListMailboxStatistics",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListMailboxes",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListMessageTrace",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListNamedLocations",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListNotificationConfig",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListOAuthApps",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListOrg",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListPartnerRelationships",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListPhishPolicies",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListPotentialApps",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListRoles",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListScheduledItems",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListServiceHealth",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListSharedMailboxAccountEnabled",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListSharedMailboxStatistics",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListSharepointQuota",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListSharepointSettings",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListSignIns",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListSites",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListSpamFilterTemplates",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListSpamfilter",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListStandards",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListTeams",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListTeamsActivity",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListTeamsVoice",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListTenantDetails",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListTenants",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListTransportRules",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListTransportRulesTemplates",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListUserConditionalAccessPolicies",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListUserCounts",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListUserDevices",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListUserGroups",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListUserMailboxDetails",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListUserMailboxRules",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListUserPhoto",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListUserSigninLogs",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListUsers",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ListmailboxPermissions",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/PublicScripts",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/RemoveAPDevice",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/RemoveApp",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/RemoveContact",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/RemoveUser",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/SendStats",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/UpdatePermissions",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/UpdatePermissionsQueue",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/UpdateTokens",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
       "route": "/api/add*",
       "allowedRoles": ["admin", "editor"]
     },
