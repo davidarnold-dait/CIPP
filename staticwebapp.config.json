@@ -660,7 +660,7 @@
     },
     {
       "route": "/api/ExecSendPush",
-      "allowedRoles": ["admin", "editor", "readonly"]
+      "allowedRoles": ["admin", "editor", "technician", "readonly"]
     },
     {
       "route": "/api/ExecExcludeTenant",
