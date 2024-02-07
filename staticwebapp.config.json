@@ -671,6 +671,10 @@
       "allowedRoles": ["admin", "editor"]
     },
     {
+      "route": "/cipp/scheduler",
+      "allowedRoles": ["technician", "admin"]
+    },
+    {
       "route": "/cipp/*",
       "allowedRoles": ["admin"]
     },
