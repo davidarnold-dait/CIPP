@@ -131,6 +131,10 @@
       "allowedRoles": ["technician", "admin", "editor"]
     },
     {
+      "route": "/api/ExecCAExclusion",
+      "allowedRoles": ["technician", "admin", "editor"]
+    },
+    {
       "route": "/api/ExecCPVPermissions",
       "allowedRoles": ["technician", "admin", "editor"]
     },
