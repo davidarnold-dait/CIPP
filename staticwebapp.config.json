@@ -75,7 +75,7 @@
       "allowedRoles": ["technician", "admin", "editor"]
     },
     {
-      "route": "/api/AddScheduledItems",
+      "route": "/api/AddScheduledItem",
       "allowedRoles": ["technician", "admin", "editor"]
     },
     {
